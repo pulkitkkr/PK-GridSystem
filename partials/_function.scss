@@ -1,0 +1,3 @@
+@function calc-col($value1, $multiplier) {
+  @return $value1 * $multiplier;
+}

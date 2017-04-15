@@ -1,0 +1,892 @@
+@import 'partials/function';
+@import 'partials/mixin';
+@import 'partials/variables';
+.pk-container {
+    width: 100%;
+}
+
+.pk-row:before,
+.pk-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*= 'pk-col-'] {
+    float: left;
+    min-height: 1px;
+}
+
+.pk-mg-l-1 {
+    margin-left: calc-col(percentage(0.1), 1);
+}
+
+.pk-mg-l-2 {
+    margin-left: calc-col(percentage(0.1), 2);
+}
+
+.pk-mg-l-3 {
+    margin-left: calc-col(percentage(0.1), 3);
+}
+
+.pk-mg-l-4 {
+    margin-left: calc-col(percentage(0.1), 4);
+}
+
+.pk-mg-l-5 {
+    margin-left: calc-col(percentage(0.1), 5);
+}
+
+.pk-mg-l-6 {
+    margin-left: calc-col(percentage(0.1), 6);
+}
+
+.pk-mg-l-7 {
+    margin-left: calc-col(percentage(0.1), 7);
+}
+
+.pk-mg-l-8 {
+    margin-left: calc-col(percentage(0.1), 8);
+}
+
+.pk-mg-l-9 {
+    margin-left: calc-col(percentage(0.1), 9);
+}
+
+.pk-mg-l-10 {
+    margin-left: calc-col(percentage(0.1), 10);
+}
+
+[class*='pk-col-s-'] {
+    width: 100%;
+}
+
+[class*='pk-col-md-'] {
+    width: 100%;
+}
+
+[class*='pk-col-ld-'] {
+    width: 100%;
+}
+
+[class*='pk-col-xl-'] {
+ width: 100%;
+
+}
+[class*='pk-col-xs-'] {
+ width: 100%;
+
+}
+.pk-col-all-1 {
+    width: calc-col($base, 1);
+}
+.pk-col-all-2 {
+    width: calc-col($base, 2);
+}
+.pk-col-all-3 {
+    width: calc-col($base, 3);
+}
+.pk-col-all-4 {
+    width: calc-col($base, 4);
+}
+.pk-col-all-5 {
+    width: calc-col($base, 5);
+}
+.pk-col-all-6 {
+    width: calc-col($base, 6);
+}
+.pk-col-all-7 {
+    width: calc-col($base, 7);
+}
+.pk-col-all-8 {
+    width: calc-col($base, 8);
+}
+.pk-col-all-9 {
+    width: calc-col($base, 9);
+}
+.pk-col-all-10 {
+    width: calc-col($base, 10);
+}
+.pk-col-all-11 {
+    width: calc-col($base, 11);
+}
+.pk-col-all-12 {
+    width: calc-col($base, 12);
+}
+.pk-col-all-13 {
+    width: calc-col($base, 13);
+}
+.pk-col-all-14 {
+    width: calc-col($base, 14);
+}
+.pk-col-all-15 {
+    width: calc-col($base, 15);
+}
+.pk-col-all-16 {
+    width: calc-col($base, 16);
+}
+
+/*Css Declaration for Xtra-Small Device Code:xs */
+@media (min-width: 0px) and (max-width: $xs) {
+    .iff-pd {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .pk-col-hidden-xs {
+        display: none;
+    }
+    .pk-col-xs-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-xs-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-xs-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-xs-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-xs-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-xs-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-xs-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-xs-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-xs-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-xs-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-xs-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-xs-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-xs-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-xs-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-xs-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-xs-16 {
+        width: calc-col($base, 16);
+    }
+}
+
+/* Css Declaration for Small screen Devices, Code:s; */
+@media (min-width: $xs) and (max-width: $s) {
+    .iff-pd {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        vertical-align: center;
+        vertical-align: middle;
+    }
+    .pk-col-hidden-s {
+        display: none;
+    }
+    .pk-col-xs-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-xs-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-xs-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-xs-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-xs-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-xs-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-xs-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-xs-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-xs-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-xs-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-xs-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-xs-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-xs-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-xs-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-xs-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-xs-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-s-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-s-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-s-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-s-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-s-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-s-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-s-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-s-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-s-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-s-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-s-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-s-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-s-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-s-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-s-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-s-16 {
+        width: calc-col($base, 16);
+    }
+}
+
+/* Css Declaration for medium screen Devices, Code:md */
+@media (min-width: $s) and (max-width: $md) {
+    .pk-col-hidden-md {
+        display: none;
+    }
+    .pk-col-xs-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-xs-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-xs-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-xs-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-xs-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-xs-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-xs-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-xs-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-xs-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-xs-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-xs-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-xs-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-xs-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-xs-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-xs-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-xs-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-s-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-s-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-s-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-s-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-s-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-s-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-s-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-s-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-s-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-s-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-s-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-s-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-s-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-s-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-s-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-s-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-md-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-md-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-md-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-md-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-md-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-md-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-md-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-md-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-md-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-md-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-md-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-md-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-md-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-md-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-md-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-md-16 {
+        width: calc-col($base, 16);
+    }
+}
+
+/* Css Declaration for medium screen Devices, Code:ld */
+@media (min-width: $md) and (max-width: $ld) {
+    .pk-col-hidden-ld {
+        display: none;
+    }
+    .pk-col-xs-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-xs-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-xs-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-xs-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-xs-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-xs-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-xs-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-xs-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-xs-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-xs-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-xs-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-xs-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-xs-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-xs-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-xs-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-xs-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-s-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-s-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-s-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-s-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-s-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-s-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-s-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-s-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-s-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-s-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-s-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-s-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-s-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-s-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-s-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-s-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-md-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-md-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-md-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-md-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-md-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-md-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-md-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-md-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-md-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-md-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-md-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-md-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-md-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-md-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-md-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-md-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-ld-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-ld-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-ld-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-ld-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-ld-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-ld-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-ld-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-ld-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-ld-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-ld-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-ld-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-ld-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-ld-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-ld-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-ld-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-ld-16 {
+        width: calc-col($base, 16);
+    }
+}
+
+/* Css Declaration for medium screen Devices, Code:xl */
+@media (min-width: $ld) {
+    .pk-col-hidden-xl {
+        display: none;
+    }
+    .pk-col-xs-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-xs-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-xs-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-xs-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-xs-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-xs-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-xs-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-xs-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-xs-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-xs-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-xs-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-xs-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-xs-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-xs-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-xs-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-xs-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-s-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-s-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-s-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-s-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-s-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-s-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-s-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-s-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-s-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-s-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-s-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-s-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-s-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-s-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-s-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-s-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-md-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-md-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-md-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-md-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-md-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-md-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-md-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-md-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-md-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-md-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-md-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-md-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-md-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-md-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-md-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-md-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-ld-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-ld-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-ld-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-ld-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-ld-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-ld-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-ld-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-ld-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-ld-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-ld-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-ld-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-ld-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-ld-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-ld-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-ld-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-ld-16 {
+        width: calc-col($base, 16);
+    }
+    .pk-col-xl-1 {
+        width: calc-col($base, 1);
+    }
+    .pk-col-xl-2 {
+        width: calc-col($base, 2);
+    }
+    .pk-col-xl-3 {
+        width: calc-col($base, 3);
+    }
+    .pk-col-xl-4 {
+        width: calc-col($base, 4);
+    }
+    .pk-col-xl-5 {
+        width: calc-col($base, 5);
+    }
+    .pk-col-xl-6 {
+        width: calc-col($base, 6);
+    }
+    .pk-col-xl-7 {
+        width: calc-col($base, 7);
+    }
+    .pk-col-xl-8 {
+        width: calc-col($base, 8);
+    }
+    .pk-col-xl-9 {
+        width: calc-col($base, 9);
+    }
+    .pk-col-xl-10 {
+        width: calc-col($base, 10);
+    }
+    .pk-col-xl-11 {
+        width: calc-col($base, 11);
+    }
+    .pk-col-xl-12 {
+        width: calc-col($base, 12);
+    }
+    .pk-col-xl-13 {
+        width: calc-col($base, 13);
+    }
+    .pk-col-xl-14 {
+        width: calc-col($base, 14);
+    }
+    .pk-col-xl-15 {
+        width: calc-col($base, 15);
+    }
+    .pk-col-xl-16 {
+        width: calc-col($base, 16);
+    }
+}
