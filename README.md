@@ -1,5 +1,5 @@
 # PK-GridSystem
-This is a 16-column grid system, 
+This is a 16 bit grid system, 16 because 100/16 = 6.25 (non repeating & ending decimal) and provides more customization compared to 12-col system
 <hr/>
 <h3>installation</h3>
 <ol>
