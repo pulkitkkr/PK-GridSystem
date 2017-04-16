@@ -7,8 +7,10 @@ This is a 16 bit grid system, 16 because 100/16 = 6.25 (non repeating & ending d
   <li>Copy 'grid.css' or 'grid.min.css' to your project</li>
   <li>Set < link href='path/to/grid.css'></li>
   <li>You are ready to go, use class name with reference to <b>Usage</b> section below, Happy hacking</li>
+  <li>For Demo, Open demo.html</li>
 </ol>
 <br/>
+<hr/>
 <h3>Device Codes:</h3>
 <b>xs</b> : 0-768px <br/>
 <b>s</b> : 768-992px <br/>
